@@ -53,18 +53,31 @@ pip install -r requirements.txt
 
 
 ### วิธีการใช้งาน
+Windows Command Prompt:
 ```sh
 set TF_ENABLE_ONEDNN_OPTS=0
-```
-```sh
 python .\app.py
 ```
+Windows PowerShell:
+```sh
+$env:TF_ENABLE_ONEDNN_OPTS=0
+python .\app.py
+```
+
+Linux/MacOS Terminal:
+```sh
+export TF_ENABLE_ONEDNN_OPTS=0
+python .\app.py
+```
+
+
 
 ### ตัวอย่าง
 เมื่อรันโปรแกรม ASR แล้ว ท่านสามารถใช้งานโปรแกรมผ่าน Link : http://127.0.0.1:8000
 
 ![demo01](https://github.com/user-attachments/assets/195282f2-2581-421e-83e9-d70028955a63)
 ![demo02](https://github.com/user-attachments/assets/8cb144f0-9171-4b52-b2a1-07b7872ece61)
+
 
 
 ## ข้อกำหนดและเงื่อนไข
