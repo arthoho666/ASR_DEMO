@@ -1,1 +1,80 @@
-# ASR_DEMO
+# Automatic Speech Recognition (ASR) ภาษาไทย
+
+
+## วัตถุประสงค์
+การพัฒนาระบบ ASR ภาษาไทยนี้มีวัตถุประสงค์เพื่อ:
+- ปรับปรุงประสิทธิภาพในการรับรู้และแปลงเสียงพูดภาษาไทย
+- สนับสนุนการนำไปใช้ในแอปพลิเคชันหรือบริการที่ต้องการการจดจำเสียงหรือแปลงเสียงเป็นข้อความ
+
+## การใช้งาน
+### การติดตั้ง
+
+```sh
+python -m venv env
+```
+Windows
+```sh
+cmd.exe
+
+C:\> <venv>\Scripts\activate.bat
+
+PowerShell
+
+PS C:\> <venv>\Scripts\Activate.ps1
+```
+
+POSIX
+```sh
+bash/zsh
+
+$ source <venv>/bin/activate
+
+fish
+
+$ source <venv>/bin/activate.fish
+
+csh/tcsh
+
+$ source <venv>/bin/activate.csh
+
+PowerShell
+
+$ <venv>/bin/Activate.ps1
+```
+
+```sh
+python.exe -m pip install --upgrade pip
+```
+
+```sh
+pip install -r requirements.txt
+```
+*** จำเป็นต้องติดตั้ง FFmpeg https://www.ffmpeg.org/download.html***
+
+
+### วิธีการใช้งาน
+```sh
+set TF_ENABLE_ONEDNN_OPTS=0
+```
+```sh
+python .\app.py
+```
+
+### ตัวอย่าง
+เมื่อรันโปรแกรม ASR แล้ว ท่านสามารถใช้งานโปรแกรมผ่าน Link : http://127.0.0.1:8000
+
+![ASR Example Record](demo01.png)
+![ASR Example Upload](demo02.png)
+
+
+## ข้อกำหนดและเงื่อนไข
+โปรเจกต์นี้เป็น Open Source และใช้ในเชิงการศึกษาเท่านั้น ควรใช้งานในเส้นทางที่ถูกต้องตามข้อกำหนดและเงื่อนไขของ OpenAI GPT และ GitHub
+
+## การร่วมมือและสนับสนุน
+หากคุณสนใจที่จะร่วมพัฒนาหรือมีข้อเสนอแนะเกี่ยวกับโปรเจกต์นี้ โปรดติดต่อผ่าน GitHub Issues หรือ Pull Requests
+
+## ข้อมูลติดต่อ
+- ผู้พัฒนา: [Apirak Ketkeaw]
+- GitHub: [https://github.com/arthoho666/ASR_DEMO]
+- อีเมล: [apirak.ketkaew.art@gmail.com]
+

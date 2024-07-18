@@ -1,0 +1,6 @@
+gradio
+transformers
+torch
+pythainlp
+deepcut
+tf-keras
