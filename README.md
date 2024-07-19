@@ -55,18 +55,18 @@ pip install -r requirements.txt
 ### วิธีการใช้งาน
 Windows Command Prompt:
 ```sh
-set TF_ENABLE_ONEDNN_OPTS=0
+set TF_ENABLE_ONEDNN_OPTS=0 #ปิดการใช้งาน OneDNN ใน TensorFlow
 python .\app.py
 ```
 Windows PowerShell:
 ```sh
-$env:TF_ENABLE_ONEDNN_OPTS=0
+$env:TF_ENABLE_ONEDNN_OPTS=0 #ปิดการใช้งาน OneDNN ใน TensorFlow
 python .\app.py
 ```
 
 Linux/MacOS Terminal:
 ```sh
-export TF_ENABLE_ONEDNN_OPTS=0
+export TF_ENABLE_ONEDNN_OPTS=0 #ปิดการใช้งาน OneDNN ใน TensorFlow
 python .\app.py
 ```
 
